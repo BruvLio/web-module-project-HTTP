@@ -8,7 +8,7 @@ This module explored HTTP methods, REST interfaces, CRUD apps and using put and 
 - Understand how to pass values into a Route component to allow for the updating of state.
 
 ## Introduction
-CRUD applications are the foundation of most web applications. Being able to manage creating, edit and deleting data from an external source is as key a skill as it gets. In this project, you will complete the code nessisary to allow all of these fundmental actions.
+CRUD applications are the foundation of most web applications. Being able to manage creating, edit and deleting data from an external source is as key a skill as it gets. In this project, you will complete the code Necessary to allow all of these fundamental actions.
 
 ![Movie DB Example](project-goals.gif)
 
@@ -59,32 +59,32 @@ CRUD applications are the foundation of most web applications. Being able to man
 #### Editing a Movie
 > *Let's start by walking through the process of adding the routing, component and service calls need for resource updating*
 
-* [ ] First, we need to be able to navigate to the edit movie component. In App.js, add in the `<EditMovieForm> `component to the supplied edit route.
+* [ ] First, we need to be able to navigate to the edit movie component. In App.js, add in the `<EditMovieForm> `component to the supplied edit route. - Done
 
-* [ ] Next, we need to grab the id being passed into the component through the url. Use the `useParams` hook to get the id value.
+* [ ] Next, we need to grab the id being passed into the component through the url. Use the `useParams` hook to get the id value. - Done
 
-* [ ] We need to be able to load in the current movie's attributes into our local form state. When `EditMovieForm` mounts, retrieve our current id's movie from the api and save the data returned to local state.
+* [ ] We need to be able to load in the current movie's attributes into our local form state. When `EditMovieForm` mounts, retrieve our current id's movie from the api and save the data returned to local state. - Done
 
-* [ ] At this point, nothing happens when the edit form is submitted. Add in the api call needed to update the server with our updated movie data.
+* [ ] At this point, nothing happens when the edit form is submitted. Add in the api call needed to update the server with our updated movie data. - Done
 
-* [ ] Don't forget to make sure that your server data and your local state are in sync! Make any changes the edit route needed to give the edit form access to App's `setMovies` method.
+* [ ] Don't forget to make sure that your server data and your local state are in sync! Make any changes the edit route needed to give the edit form access to App's `setMovies` method. - Done
 
-* [ ] Now that we have access to `setMovies`, made sure the updated list of movies is saved to our global state.
+* [ ] Now that we have access to `setMovies`, made sure the updated list of movies is saved to our global state. - Done
 
-* [ ] Redirect the user to the currently edited movie's individual info page.
+* [ ] Redirect the user to the currently edited movie's individual info page. - Done
 
 #### Deleting a Movie
 > *You added in a CRUD feature! Good job! Now let's get deleted squared away...*
 
-* [ ] Identify the component that holds the "button" needed for deletion. Add an event handler to that button.
+* [ ] Identify the component that holds the "button" needed for deletion. Add an event handler to that button. -Done
 
-* [ ] Build an event handler that makes a request to delete the currently viewed movie. Observe what is returned from the request.
+* [ ] Build an event handler that makes a request to delete the currently viewed movie. Observe what is returned from the request. - Done
 
-* [ ] You will once again need to keep the server and state data in sync. In `App.js`, complete the `deleteMovie` method so that it receives an id, filters out any movie with that id and sets state to that resultant movie list.
+* [ ] You will once again need to keep the server and state data in sync. In `App.js`, complete the `deleteMovie` method so that it receives an id, filters out any movie with that id and sets state to that resultant movie list. - Done
 
-* [ ] Pass `deleteMovie` into the appropriate component.
+* [ ] Pass `deleteMovie` into the appropriate component. - Done
 
-* [ ] Run `deleteMovie` on the currently selected movie when your delete request is complete and redirect the user to the `/movies` route.
+* [ ] Run `deleteMovie` on the currently selected movie when your delete request is complete and redirect the user to the `/movies` route. - Done
 
 #### Adding a Movie
 > *Alright! You ready! Let's see you use the skills of the previous steps to build a crud function from start to finish.*
